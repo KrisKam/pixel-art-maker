@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+}
+
+.paletteContainer {
+    display: flex;
+}
+
+.cell, .brush {
+    width: 1.5em;
+    height: 1.5em;
+    border: solid 1px grey  
+}
+
+.brush {
+  border-radius: 100%;
+}
+
+.currentColor {
+    width: 10em;
+    border: solid 1px grey;
+}
